@@ -7,6 +7,6 @@ sc._jsc.hadoopConfiguration().set("fs.s3a.secret.key", secret_key)
 aws_region = "us-east-1"
 sc._jsc.hadoopConfiguration().set("fs.s3a.endpoint", "s3." + aws_region + ".amazonaws.com")
 
-# df = spark.read.csv('s3a://sparkawssbucket/shaik/*',inferSchema=True,header=True)
+# df = spark.read.csv('s3a://sparkawssbucket/shaik/*',inferSchema=True,header=True) 
 
 # df.show()
